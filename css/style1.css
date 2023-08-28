@@ -1,0 +1,32 @@
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/tettoCasa.jpg");
+    height: 580px;
+    width: 700px;
+    margin-top: 150px;
+}
+
+main{
+    position: relative;
+}
+
+#proprietario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 200px;
+    position: absolute;
+}
+
+#proprietario #text{
+    padding: 20px;
+    border: solid 4px black;
+}
+
+button{
+    margin-top: 20px;
+}
+
