@@ -1,0 +1,117 @@
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/primoPiano.jpg");
+    height: 580px;
+    width: 700px;
+    margin-top: 280px;
+    position: relative;
+}
+
+
+header{
+    height: 80px;
+}
+
+span{
+    z-index: 2424;
+    background-color: white;
+    border: solid 2px green;
+    border-radius: 2%;
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+}
+
+span:nth-child(1){
+    bottom: 100px;
+    right: -20px;
+}
+
+span:nth-child(2){
+    left: 340px;
+    bottom: 20px;
+}
+
+span:nth-child(3){
+    top: 400px;;
+}
+
+button{
+    z-index: 5555;
+    position: absolute;
+    background-color: #929292;
+    color: yellow;
+    font-weight: 700;
+    border: solid 2px grey;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #555555;
+}
+
+.btn1{
+    bottom: 60px;
+    right: -20px;
+}
+.btn2{
+    left: 280px;
+    bottom: 50px;
+}
+.btn3{
+    left: 0px;
+    top: 450px;
+}
+.btn4{
+    left: 50px;
+    top: 50px;
+}
+
+.stz{
+    z-index: 500;
+    position: absolute;
+    background-color: rgba(255, 255, 0, 0.23);
+}
+
+.stz1{
+    display: none;
+    width: 200px;
+    height: 400px;
+    bottom: 40px;
+    right: 10px;
+}
+
+.stz2{
+    display: none;
+    left: 225px;
+    bottom: 22px;
+    width: 200px;
+    height: 150px;
+}
+
+.stz3{
+    display: none;
+    left: 0px;
+    bottom: 0px;
+    width: 220px;
+    height: 280px;
+}
+
+.stz4{
+    display: none;
+    left: 0px;
+    top: 50px;
+    width: 220px;
+    height: 250px;
+}
+
+.continua{
+    position: absolute;
+    right: 20px;
+    top: 400px;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
