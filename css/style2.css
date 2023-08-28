@@ -1,0 +1,76 @@
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/pianoTerra.jpg");
+    height: 580px;
+    width: 700px;
+    margin-top: 280px;
+    position: relative;
+}
+
+header{
+    height: 80px;
+}
+
+span{
+    background-color: white;
+    border: solid 2px green;
+    border-radius: 2%;
+    font-size: 20px;
+    padding: 5px;
+    position: absolute;
+}
+
+span:nth-child(1){
+    bottom: 60px;
+    right: 50px;
+}
+
+span:nth-child(2){
+    left: 280px;
+    top: 20px;
+}
+
+span:nth-child(3){
+    top: 100px;
+}
+
+button{
+    z-index: 5555;
+    position: absolute;
+    background-color: #929292;
+    color: yellow;
+    font-weight: 700;
+    border: solid 2px grey;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: #555555;
+}
+
+.btn1{
+    bottom: 60px;
+    right: -20px;
+}
+.btn2{
+    left: 280px;
+    top: -10px;
+}
+.btn3{
+    left: -50px;
+    top: 100px;
+}
+
+.stz{
+    z-index: 500;
+    position: absolute;
+    background-color: rgba(255, 255, 0, 0.23);
+}
+
+.stz1{
+    width: 100px;
+    height: 500px;
+    bottom: 60px;
+    right: -20px;
+}

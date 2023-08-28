@@ -27,6 +27,9 @@ main{
 }
 
 button{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: beige;
     margin-top: 20px;
 }
 
